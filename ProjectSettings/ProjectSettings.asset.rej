@@ -1,0 +1,41 @@
+diff a/ProjectSettings/ProjectSettings.asset b/ProjectSettings/ProjectSettings.asset	(rejected hunks)
+@@ -256,7 +256,14 @@
+   AndroidMinifyDebug: 0
+   AndroidValidateAppBundleSize: 1
+   AndroidAppBundleSizeToValidate: 150
+-  m_BuildTargetIcons: []
++  m_BuildTargetIcons:
++  - m_BuildTarget: 
++    m_Icons:
++    - serializedVersion: 2
++      m_Icon: {fileID: 2800000, guid: 11360fea0fbb66b41bb2938cc8efb75d, type: 3}
++      m_Width: 128
++      m_Height: 128
++      m_Kind: 0
+   m_BuildTargetPlatformIcons:
+   - m_BuildTarget: Android
+     m_Icons:
+@@ -733,7 +740,7 @@
+     Purchasing: 0
+     UDP: 0
+     UNet: 1
+-    Unity Ads: 1
++    Unity Ads: 0
+   luminIcon:
+     m_Name: 
+     m_ModelFolderPath: 
+@@ -747,11 +754,11 @@
+     m_VersionName: 
+   apiCompatibilityLevel: 6
+   activeInputHandler: 0
+-  cloudProjectId: 6f1b2bc8-3a80-4b12-b762-577ea888a58e
++  cloudProjectId: 6936c96d-c564-49fd-9c3d-7d01c74d8acd
+   framebufferDepthMemorylessMode: 0
+   qualitySettingsNames: []
+-  projectName: CheckerFinal
+-  organizationId: banglemoose
++  projectName: CheckerFinal (1)
++  organizationId: jesse-m-coyne
+   cloudEnabled: 0
+   legacyClampBlendShapeWeights: 0
+   virtualTexturingSupportEnabled: 0

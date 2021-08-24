@@ -1,0 +1,3199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1001 &74284201
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1940992075}
+    m_Modifications:
+    - target: {fileID: 6206192090730925008, guid: d766e2a876f50134eb2f242f5a78379e,
+        type: 3}
+      propertyPath: m_Name
+      value: TextureBG
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206192090730925009, guid: d766e2a876f50134eb2f242f5a78379e,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206192090730925009, guid: d766e2a876f50134eb2f242f5a78379e,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206192090730925009, guid: d766e2a876f50134eb2f242f5a78379e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206192090730925009, guid: d766e2a876f50134eb2f242f5a78379e,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206192090730925009, guid: d766e2a876f50134eb2f242f5a78379e,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206192090730925009, guid: d766e2a876f50134eb2f242f5a78379e,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206192090730925009, guid: d766e2a876f50134eb2f242f5a78379e,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206192090730925009, guid: d766e2a876f50134eb2f242f5a78379e,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2160
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206192090730925009, guid: d766e2a876f50134eb2f242f5a78379e,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 3840
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206192090730925009, guid: d766e2a876f50134eb2f242f5a78379e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206192090730925009, guid: d766e2a876f50134eb2f242f5a78379e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206192090730925009, guid: d766e2a876f50134eb2f242f5a78379e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206192090730925009, guid: d766e2a876f50134eb2f242f5a78379e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206192090730925009, guid: d766e2a876f50134eb2f242f5a78379e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206192090730925009, guid: d766e2a876f50134eb2f242f5a78379e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206192090730925009, guid: d766e2a876f50134eb2f242f5a78379e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206192090730925009, guid: d766e2a876f50134eb2f242f5a78379e,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206192090730925009, guid: d766e2a876f50134eb2f242f5a78379e,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206192090730925009, guid: d766e2a876f50134eb2f242f5a78379e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206192090730925009, guid: d766e2a876f50134eb2f242f5a78379e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206192090730925009, guid: d766e2a876f50134eb2f242f5a78379e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d766e2a876f50134eb2f242f5a78379e, type: 3}
+--- !u!224 &74284202 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6206192090730925009, guid: d766e2a876f50134eb2f242f5a78379e,
+    type: 3}
+  m_PrefabInstance: {fileID: 74284201}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &82317877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 82317880}
+  - component: {fileID: 82317879}
+  - component: {fileID: 82317878}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &82317878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82317877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &82317879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82317877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &82317880
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82317877}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &95164078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 95164079}
+  m_Layer: 5
+  m_Name: TextHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &95164079
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95164078}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 926251623}
+  - {fileID: 1606011645}
+  m_Father: {fileID: 1635277866}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &182980467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 182980468}
+  - component: {fileID: 182980470}
+  - component: {fileID: 182980469}
+  m_Layer: 5
+  m_Name: Arrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &182980468
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182980467}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.4329, y: 1.4329, z: 1.4329}
+  m_Children: []
+  m_Father: {fileID: 1635277866}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 129.95, y: 88.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &182980469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182980467}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: fcfa35985224f1546a2df2a612d24473, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &182980470
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182980467}
+  m_CullTransparentMesh: 1
+--- !u!1 &183995268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 183995269}
+  - component: {fileID: 183995273}
+  - component: {fileID: 183995272}
+  - component: {fileID: 183995271}
+  - component: {fileID: 183995270}
+  m_Layer: 5
+  m_Name: Back (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &183995269
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183995268}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: -1.7549499, y: 1.7549499, z: 1.7549499}
+  m_Children:
+  - {fileID: 1110805640}
+  m_Father: {fileID: 454998436}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 74, y: 83}
+  m_SizeDelta: {x: 90, y: 78.8}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &183995270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183995268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8dc6ab52542d7044998b2fc345bde81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &183995271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183995268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
+    m_PressedColor: {r: 0.5849056, g: 0.5849056, b: 0.5849056, a: 1}
+    m_SelectedColor: {r: 0.5566038, g: 0.5566038, b: 0.5566038, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 183995272}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 183995270}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: LoadAScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MenuScene
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &183995272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183995268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 5c4a763eba8331548874aac6b61bc866, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &183995273
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183995268}
+  m_CullTransparentMesh: 0
+--- !u!1 &454998432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 454998436}
+  - component: {fileID: 454998435}
+  - component: {fileID: 454998434}
+  - component: {fileID: 454998433}
+  m_Layer: 5
+  m_Name: UICanvas (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &454998433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454998432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &454998434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454998432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1080, y: 1920}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 1
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &454998435
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454998432}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 1
+  m_TargetDisplay: 0
+--- !u!224 &454998436
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454998432}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 183995269}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1 &539115410
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 539115411}
+  - component: {fileID: 539115412}
+  - component: {fileID: 539115413}
+  - component: {fileID: 539115414}
+  - component: {fileID: 539115415}
+  - component: {fileID: 539115416}
+  - component: {fileID: 539115417}
+  m_Layer: 0
+  m_Name: Logic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &539115411
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539115410}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &539115412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539115410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e69451632217f6419b9eaea04b6cdf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fieldBlue: {r: 0, g: 0.39443517, b: 1, a: 0.49019608}
+  fieldGreen: {r: 0.34025726, g: 0.7735849, b: 0.23718406, a: 0.49019608}
+  fieldWhite: {r: 1, g: 1, b: 1, a: 0.62352943}
+  highlight: {r: 0, g: 1, b: 0.46207285, a: 0}
+  messaging: {fileID: 539115414}
+  tile: {fileID: 1111095069845145304, guid: e47e69b669c7b97458fe6f7ad5ee446d, type: 3}
+  yardMark: {fileID: 8540837491353814783, guid: 295bdeaf54b802b4abf068467660c953,
+    type: 3}
+  yardMarkHolder: {fileID: 2100505592}
+  canvas: {fileID: 2100505591}
+--- !u!114 &539115413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539115410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26e18807876fdf94592fbf034c35c07d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  messaging: {fileID: 539115414}
+  steps:
+  - name: Introduction
+    coord: {x: -1, y: -1}
+    stepText: Welcome to the Checker Football Tutorial! We promise we'll make it
+      quick. Tap anywhere to continue.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 0
+      pointA: {x: 0, y: 0}
+      pointB: {x: 0, y: 0}
+      pointDir: 0
+      offset: 0
+    textYPos: -1
+  - name: Placing
+    coord: {x: 5, y: 5}
+    stepText: The first thing you'll do in any game is place your pieces. Try placing
+      one on this square on the 40 yard line.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: PlacePieceOne
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 1
+      pointA: {x: 5, y: 5}
+      pointB: {x: 0, y: 0}
+      pointDir: 2
+      offset: 1
+    textYPos: 0
+  - name: Removing
+    coord: {x: 5, y: 5}
+    stepText: Nailed it! Sometimes you change your mind though, try tapping again
+      to remove it.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: RemovePieceOne
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 1
+      pointA: {x: 5, y: 5}
+      pointB: {x: 0, y: 0}
+      pointDir: 2
+      offset: 1
+    textYPos: -1
+  - name: Yard Lines
+    coord: {x: -1, y: -1}
+    stepText: You're  natural! Notice the yard lines here, these determine where
+      you can place your pieces based on the Scrimmage Line.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: ShowYardPointer
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: HideYardPointer
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 2
+      pointA: {x: 1, y: 2}
+      pointB: {x: 1, y: 11}
+      pointDir: 2
+      offset: 1
+    textYPos: -1
+  - name: ScrimmageLine
+    coord: {x: -1, y: -1}
+    stepText: The Scrimmage Line is the yard that pieces line up at, here the Scrimmage
+      Line is 50 yards.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: PlaceScrimmageLinePieces
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: RemoveScrimmagePieces
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+    pointer:
+      type: 2
+      pointA: {x: 1, y: 7}
+      pointB: {x: 6, y: 7}
+      pointDir: 1
+      offset: 0
+    textYPos: 500
+  - name: Piece Placement 1
+    coord: {x: -1, y: -1}
+    stepText: Now let's go over the rules for placing pieces. Firstly, both teams
+      are not equal. The attacking team has the Quarterback which is the most powerful
+      piece, so the defending team gets an extra piece like this. The Quarterback
+      has the ball.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115410}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: RemoveScrimmagePieces
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 0
+      pointA: {x: 0, y: 0}
+      pointB: {x: 0, y: 0}
+      pointDir: 0
+      offset: 0
+    textYPos: 550
+  - name: Piece Placement 2
+    coord: {x: -1, y: -1}
+    stepText: 'When placing pieces for the kickoff, the attacking pieces line up
+      like this:'
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: PlaceKickoffAttackingPieces
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 0
+      pointA: {x: 0, y: 0}
+      pointB: {x: 0, y: 0}
+      pointDir: 0
+      offset: 0
+    textYPos: 0
+  - name: Piece Placement 3
+    coord: {x: -1, y: -1}
+    stepText: 6 pieces anywhere on the 40 yard line
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 2
+      pointA: {x: 1, y: 6}
+      pointB: {x: 6, y: 6}
+      pointDir: 1
+      offset: 0
+    textYPos: 100
+  - name: Piece Placement 4
+    coord: {x: -1, y: -1}
+    stepText: 3 pieces anywhere on the 20 yard line
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 2
+      pointA: {x: 1, y: 4}
+      pointB: {x: 6, y: 4}
+      pointDir: 1
+      offset: 0
+    textYPos: -1
+  - name: Piece Placement 5
+    coord: {x: -1, y: -1}
+    stepText: And 2 pieces anywhere in the first row of the endzone.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 2
+      pointA: {x: 1, y: 2}
+      pointB: {x: 6, y: 2}
+      pointDir: 1
+      offset: 0
+    textYPos: -1
+  - name: Piece Placement 6
+    coord: {x: -1, y: -1}
+    stepText: The Quarterback can be set to any piece in the endzone, once the rest
+      of the pieces have been placed.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 0
+      pointA: {x: 1, y: 2}
+      pointB: {x: 6, y: 2}
+      pointDir: 1
+      offset: 0
+    textYPos: -1
+  - name: Piece Placement 7
+    coord: {x: 5, y: 1}
+    stepText: Try tapping this piece to set it as the Quarterback
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: PiecePlacementRemoveOnePiece
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: DemoRemoveQBPiece
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 1
+      pointA: {x: 5, y: 1}
+      pointB: {x: 6, y: 2}
+      pointDir: 2
+      offset: 1
+    textYPos: -1
+  - name: Piece Placement 8
+    coord: {x: 0, y: 5}
+    stepText: See we removed the piece because there was a piece missing in the front
+      row? Try adding a piece here.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: DemoAddPieceBack
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: DemoAddQBBack
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 1
+      pointA: {x: 0, y: 5}
+      pointB: {x: 6, y: 2}
+      pointDir: 2
+      offset: 1
+    textYPos: -1
+  - name: Setting QB
+    coord: {x: 5, y: 1}
+    stepText: Great, now try setting the Quarterback again
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: SetQB
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 1
+      pointA: {x: 5, y: 1}
+      pointB: {x: 6, y: 2}
+      pointDir: 2
+      offset: 1
+    textYPos: -1
+  - name: Piece Placement 9
+    coord: {x: -1, y: -1}
+    stepText: Nice! Let's move onto the Defending Pieces.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: RemoveAllPieces
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 0
+      pointA: {x: 5, y: 1}
+      pointB: {x: 6, y: 2}
+      pointDir: 2
+      offset: 0
+    textYPos: -1
+  - name: Defending Placement 1
+    coord: {x: -1, y: -1}
+    stepText: Defending is a bit simpler.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: SpawnDefendingSide
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 0
+      pointA: {x: 5, y: 1}
+      pointB: {x: 6, y: 2}
+      pointDir: 2
+      offset: 0
+    textYPos: -1
+  - name: Defending Placement 2
+    coord: {x: -1, y: -1}
+    stepText: On kickoff there are 8 pieces in the front row
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 2
+      pointA: {x: 1, y: 6}
+      pointB: {x: 6, y: 6}
+      pointDir: 1
+      offset: 0
+    textYPos: -1
+  - name: Defending Placement 3
+    coord: {x: -1, y: -1}
+    stepText: and 4 in the row behind
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: RemoveAllPieces
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 2
+      pointA: {x: 1, y: 5}
+      pointB: {x: 6, y: 5}
+      pointDir: 1
+      offset: 0
+    textYPos: -1
+  - name: Defending Placement 4
+    coord: {x: -1, y: -1}
+    stepText: On normal downs there are 6 pieces in the front row
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: PlaceDefendingNormalDownPieces
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 2
+      pointA: {x: 1, y: 6}
+      pointB: {x: 6, y: 6}
+      pointDir: 1
+      offset: 0
+    textYPos: -1
+  - name: Defending Placement 5
+    coord: {x: -1, y: -1}
+    stepText: And the rest can go anywhere behind the line of scrimmage
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 2
+      pointA: {x: 1, y: 5}
+      pointB: {x: 1, y: 1}
+      pointDir: 3
+      offset: 0
+    textYPos: -1
+  - name: Defending Placement 6
+    coord: {x: -1, y: -1}
+    stepText: Pretty simple hey? Now let's check out some actual gameplay!
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: RemoveAllPieces
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 0
+      pointA: {x: 1, y: 5}
+      pointB: {x: 6, y: 5}
+      pointDir: 1
+      offset: 0
+    textYPos: -1
+  - name: Aim Of The Game
+    coord: {x: -1, y: -1}
+    stepText: The aim of the game is simple. The attacking team wants to get their
+      quarterback into the opponents Endzone. The defending team wants to stop that.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: SpawnMovementTeamOnePieces
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: SpawnMovementTeamTwoPieces
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 0
+      pointA: {x: 1, y: 5}
+      pointB: {x: 6, y: 5}
+      pointDir: 1
+      offset: 0
+    textYPos: 620
+  - name: Movement 1
+    coord: {x: -1, y: -1}
+    stepText: In order to achieve that you'll need to be able to move your pieces
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 0
+      pointA: {x: 1, y: 5}
+      pointB: {x: 6, y: 5}
+      pointDir: 1
+      offset: 0
+    textYPos: -1
+  - name: Movement 1.5
+    coord: {x: -1, y: -1}
+    stepText: You can see the defending team has moved their piece, that's because
+      defense goes first on the kickoff
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: MoveOpponentPiece
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 0
+      pointA: {x: 7, y: 6}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 0
+    textYPos: -1
+  - name: Movement 2
+    coord: {x: 5, y: 1}
+    stepText: Try tapping the Quarterback to select it
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 1
+      pointA: {x: 5, y: 1}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 1
+    textYPos: -1
+  - name: Movement 3
+    coord: {x: -1, y: -1}
+    stepText: Nothing happened! That's because some piece movement is restricted
+      until 3 Blocks have been made. We'll get to blocks in a moment.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 0
+      pointA: {x: 5, y: 1}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 0
+    textYPos: -1
+  - name: Movement 4
+    coord: {x: 5, y: 5}
+    stepText: For now, try selecting this piece of yours. We promise it'll work this
+      time
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: SelectPieceForMovement
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 1
+      pointA: {x: 5, y: 5}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 1
+    textYPos: -1
+  - name: Movement 5
+    coord: {x: 5, y: 5}
+    stepText: Great, you can tell the piece is selected because it's bigger than
+      the others. If you change your mind and want to deselect a piece, just tap
+      it again.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: DeselectPiece
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 1
+      pointA: {x: 5, y: 5}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 1
+    textYPos: -1
+  - name: Movement 5
+    coord: {x: 5, y: 5}
+    stepText: Perfect! Let's reselect that piece and make a move.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: SelectPieceForMovement
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 1
+      pointA: {x: 5, y: 5}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 1
+    textYPos: -1
+  - name: Movement 6
+    coord: {x: 5, y: 6}
+    stepText: Until 3 Blocks have been made, pieces can only move forward and diagonally
+      forward. The Quarterback can't move at all. Try moving your piece to the square
+      in front of it
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: FirstMovePiece
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 1
+      pointA: {x: 5, y: 6}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 1
+    textYPos: -1
+  - name: Movement 7
+    coord: {x: -1, y: -1}
+    stepText: Great! Now it's your opponent's turn, tap next to see what they do.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: MoveOpponentPieceTwo
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 0
+      pointA: {x: 5, y: 6}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 0
+    textYPos: -1
+  - name: Movement 8
+    coord: {x: 5, y: 6}
+    stepText: Looks like your opponent wants to fight. Let's Block their piece. First
+      select your piece.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: SelectPieceForBlocking
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 1
+      pointA: {x: 5, y: 6}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 1
+    textYPos: -1
+  - name: Movement 9
+    coord: {x: 5, y: 7}
+    stepText: Now tap your opponent's piece to block it!
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: FirstBlockDemo
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 1
+      pointA: {x: 5, y: 7}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 1
+    textYPos: -1
+  - name: Movement 10
+    coord: {x: -1, y: -1}
+    stepText: Nice! Pieces in block can move normally, but they can no longer block
+      other pieces or tackle the Quarterback.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 0
+      pointA: {x: 5, y: 7}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 0
+    textYPos: -1
+  - name: Movement 11
+    coord: {x: -1, y: -1}
+    stepText: Now let's skip ahead to when 3 blocks have been made. Remember after
+      3 blocks, pieces can move in any direction and the Quarterback can now enter
+      play.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: SetupThreeBlocks
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 0
+      pointA: {x: 5, y: 7}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 0
+    textYPos: -1
+  - name: QB 1
+    coord: {x: 5, y: 1}
+    stepText: Start by selecting the Quarterback
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: SelectQuarterback
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 1
+      pointA: {x: 5, y: 1}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 1
+    textYPos: -1
+  - name: QB 2
+    coord: {x: 5, y: 2}
+    stepText: It worked this time! Now you can move the Quarterback in any direction,
+      but we want to try to get him to the endzone. Let's move him forward one row.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: MoveQuarterback
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 1
+      pointA: {x: 5, y: 2}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 1
+    textYPos: -1
+  - name: QB 3
+    coord: {x: -1, y: -1}
+    stepText: That's it, now let's see what your opponent does.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: MovePieceToBlockQB
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 0
+      pointA: {x: 5, y: 2}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 0
+    textYPos: -1
+  - name: QB 4
+    coord: {x: 5, y: 2}
+    stepText: Interesting move. Now it's time to see what the Quarterback can do!
+      Start by selecting it again.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: SelectQuarterbackForJump
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 1
+      pointA: {x: 5, y: 2}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 1
+    textYPos: -1
+  - name: QB 5
+    coord: {x: 5, y: 4}
+    stepText: The Quarterback can jump his own men! Try jumping the piece in front
+      of the QB.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: FirstQBJump
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 1
+      pointA: {x: 5, y: 4}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 1
+    textYPos: -1
+  - name: QB 6
+    coord: {x: 7, y: 6}
+    stepText: And he can jump as many times in a single turn as he likes! Let's jump
+      again.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: SecondQBJump
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 1
+      pointA: {x: 7, y: 6}
+      pointB: {x: 6, y: 5}
+      pointDir: 3
+      offset: 1
+    textYPos: -1
+  - name: QB 7
+    coord: {x: 7, y: 6}
+    stepText: To finish jumping, just tap on the Quarterback again.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: DeselectQB
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 1
+      pointA: {x: 7, y: 6}
+      pointB: {x: 6, y: 5}
+      pointDir: 3
+      offset: 1
+    textYPos: -1
+  - name: QB 8
+    coord: {x: -1, y: -1}
+    stepText: Oops, it looks like we've blundered the Quarterback, let's see what
+      happens when the opponent tackles it
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: QuarterbackTackled
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 0
+      pointA: {x: 7, y: 6}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 0
+    textYPos: -1
+  - name: QB Tackled
+    coord: {x: -1, y: -1}
+    stepText: When the Quarterback is tackled on the kickoff, play continues with
+      the row the Quarterback was tackled on as the new Line of Scrimmage.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: RemoveAllPieces
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 0
+      pointA: {x: 7, y: 6}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 0
+    textYPos: -1
+  - name: QB Tackled 2
+    coord: {x: -1, y: -1}
+    stepText: Here you can see the pieces lining up where your Quarterback was tackled
+      for the first down.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: PlaceScrimmageLinePiecesTwo
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: RemoveAllPieces
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 0
+      pointA: {x: 7, y: 6}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 0
+    textYPos: 313
+  - name: QB Tackled 3
+    coord: {x: -1, y: -1}
+    stepText: And here you can see that possession has changed after scoring a touchdown,
+      so you are now kicking off
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: PlaceDefendingNowPieces
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: OtherTeamAttacking
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 0
+      pointA: {x: 7, y: 6}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 0
+    textYPos: -609
+  - name: Scoring
+    coord: {x: -1, y: -1}
+    stepText: And that pretty much covers the gameplay. Before we finish up with
+      passing, let's just cover scoring really quick.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: RemoveAllPieces
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 0
+      pointA: {x: 7, y: 6}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 0
+    textYPos: 0
+  - name: Scoring 2
+    coord: {x: -1, y: -1}
+    stepText: When your Quarterback reaches the opponent's endzone, you score 6 points.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 0
+      pointA: {x: 7, y: 6}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 0
+    textYPos: -1
+  - name: Scoring 3
+    coord: {x: -1, y: -1}
+    stepText: You can then decide whether you want to go for a 1 or 2 point conversion.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 0
+      pointA: {x: 7, y: 6}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 0
+    textYPos: -1
+  - name: Scoring 4
+    coord: {x: -1, y: -1}
+    stepText: 'In a 2 point conversion you play a regular down from the 50 yard line,
+      and if you score again you get 2 more points. '
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 0
+      pointA: {x: 7, y: 6}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 0
+    textYPos: -1
+  - name: Scoring 5
+    coord: {x: -1, y: -1}
+    stepText: In a 1 point conversion, your Quarterback lines up on the 50 yard line,
+      and you have to try to kick the ball into the endzone. So let's cover kicking
+      and passing and then get you into a game!
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 0
+      pointA: {x: 7, y: 6}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 0
+    textYPos: -1
+  - name: Passing 1
+    coord: {x: 5, y: 5}
+    stepText: After 3 blocks have been made or on a 1 point conversion you can pass
+      the ball. To pass the ball, tap and hold the Quarterback to begin the pass.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: SpawnPassQB
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 0
+      pointA: {x: 7, y: 6}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 0
+    textYPos: 288
+  - name: Passing 2
+    coord: {x: -1, y: -1}
+    stepText: Great, now swipe your finger to pass the ball!
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 0
+      pointA: {x: 7, y: 6}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 0
+    textYPos: -1
+  - name: Passing 3
+    coord: {x: -1, y: -1}
+    stepText: Nice! For a one point conversion, you need to try to get the ball into
+      the endzone.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 0
+      pointA: {x: 7, y: 6}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 0
+    textYPos: -1
+  - name: Passing 4
+    coord: {x: -1, y: -1}
+    stepText: When passing the ball during gameplay, you are allowed one Forward
+      Pass per down, and as many backwards or lateral passes as you like.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 0
+      pointA: {x: 7, y: 6}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 0
+    textYPos: -1
+  - name: Passing 5
+    coord: {x: -1, y: -1}
+    stepText: When a passed ball hits a player piece, that piece becomes the quarterback.
+      That means the opposing team can intercept, so be careful!
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 0
+      pointA: {x: 7, y: 6}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 0
+    textYPos: -1
+  - name: Passing 6
+    coord: {x: -1, y: -1}
+    stepText: If the ball is passed off the field or if no player catches a forward
+      pass, it is a loss of down.
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 0
+      pointA: {x: 7, y: 6}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 0
+    textYPos: -1
+  - name: Passing 7
+    coord: {x: -1, y: -1}
+    stepText: And finally if no player catches the ball on a lateral or backwards
+      pass, it will become a Live Ball on the tile it landed on, and whoever reaches
+      it first is the new Quarterback!
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    pointer:
+      type: 0
+      pointA: {x: 7, y: 6}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 0
+    textYPos: -1
+  - name: Passing 8
+    coord: {x: -1, y: -1}
+    stepText: That pretty much gets you up to speed, now you can play an offline
+      game to get the hang of things or jump into a live match if you're feeling
+      brave! Let's play some ball!
+    StepStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    StepEndEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 539115415}
+          m_TargetAssemblyTypeName: TutorialActions, Assembly-CSharp
+          m_MethodName: BackToMainMenu
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    pointer:
+      type: 0
+      pointA: {x: 7, y: 6}
+      pointB: {x: 6, y: 5}
+      pointDir: 2
+      offset: 0
+    textYPos: -1
+  textBack: {fileID: 926251624}
+  textHolder: {fileID: 95164079}
+  arrow: {fileID: 0}
+  tutorialText: {fileID: 1606011646}
+  currentIndex: 0
+--- !u!114 &539115414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539115410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e513d1c7d72104e85302c0bf37a5b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &539115415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539115410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1814890cb5370494dba3450347f19984, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blackPiece: {fileID: 21300000, guid: fdb37c8d44c76824d83cd059cf8cd2cc, type: 3}
+  blackPieceHead: {fileID: 21300000, guid: 11360fea0fbb66b41bb2938cc8efb75d, type: 3}
+  redPiece: {fileID: 21300000, guid: fb93e09ada7e62a4ba95941abc3f8ace, type: 3}
+  redPieceHead: {fileID: 21300000, guid: cfb97b612a38a2f498e95b3ab9b455ae, type: 3}
+--- !u!114 &539115416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539115410}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42237100bc530514ca928db3ce791ac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ball: {fileID: 4485119547754281384, guid: 1eaa6d1c7866fe94eb953c853013f497, type: 3}
+--- !u!114 &539115417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539115410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39fac8c5e7221fc408847276637cc032, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ball: {fileID: 4485119547754281384, guid: 1eaa6d1c7866fe94eb953c853013f497, type: 3}
+--- !u!1 &571226816 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1553597084485210433, guid: dfbcd7cc3763693469df1e0b16b290bd,
+    type: 3}
+  m_PrefabInstance: {fileID: 2100505590}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &571226817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571226816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68a88af7cc4593b4683568b4eb7eb58f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  starImage: {fileID: 1684690133943132063, guid: caf05e814356e3241834df432573b1e2,
+    type: 3}
+--- !u!114 &571226818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571226816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14bddf89ee8f4b4d8631a1fa439c4de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arrow: {fileID: 182980469}
+--- !u!224 &571226819 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1553597084485210445, guid: dfbcd7cc3763693469df1e0b16b290bd,
+    type: 3}
+  m_PrefabInstance: {fileID: 2100505590}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &926251622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 926251623}
+  - component: {fileID: 926251625}
+  - component: {fileID: 926251624}
+  m_Layer: 5
+  m_Name: TextBack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &926251623
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926251622}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 95164079}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 829.82, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &926251624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926251622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.80784315}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 8b54ee3fcb8924d45b141b616672d759, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &926251625
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926251622}
+  m_CullTransparentMesh: 1
+--- !u!1 &1110805639
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1110805640}
+  - component: {fileID: 1110805642}
+  - component: {fileID: 1110805641}
+  m_Layer: 5
+  m_Name: Back (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1110805640
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110805639}
+  m_LocalRotation: {x: -0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: -0.43585882, y: 0.43585882, z: 0.43585882}
+  m_Children: []
+  m_Father: {fileID: 183995269}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 54, y: 45}
+  m_SizeDelta: {x: 90, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1110805641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110805639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 672a3d80aad564c4996d7614a2c68e3d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1110805642
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110805639}
+  m_CullTransparentMesh: 0
+--- !u!1 &1590366037
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1590366040}
+  - component: {fileID: 1590366039}
+  - component: {fileID: 1590366038}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1590366038
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590366037}
+  m_Enabled: 1
+--- !u!20 &1590366039
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590366037}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1590366040
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590366037}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1606011644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1606011645}
+  - component: {fileID: 1606011647}
+  - component: {fileID: 1606011646}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1606011645
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606011644}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 95164079}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 782.37, y: 93.9}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1606011646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606011644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: TEST
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: c93a9fe8f5b979946ba19c746d56afca, type: 2}
+  m_sharedMaterial: {fileID: 6232773620004822448, guid: c93a9fe8f5b979946ba19c746d56afca,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 45
+  m_fontSizeBase: 45
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 7.7
+  m_wordSpacing: 0
+  m_lineSpacing: 1.63
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1606011647
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606011644}
+  m_CullTransparentMesh: 1
+--- !u!1 &1635277862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1635277866}
+  - component: {fileID: 1635277865}
+  - component: {fileID: 1635277864}
+  - component: {fileID: 1635277863}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1635277863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635277862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1635277864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635277862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1080, y: 1920}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 1
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1635277865
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635277862}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1635277866
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635277862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 182980468}
+  - {fileID: 95164079}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1 &1778522106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1778522107}
+  - component: {fileID: 1778522109}
+  - component: {fileID: 1778522108}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1778522107
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778522106}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 571226819}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1778522108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778522106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 268623ad67320aa48b8b213391e53a12, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1778522109
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778522106}
+  m_CullTransparentMesh: 1
+--- !u!1 &1940992071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1940992075}
+  - component: {fileID: 1940992074}
+  - component: {fileID: 1940992073}
+  - component: {fileID: 1940992072}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1940992072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940992071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1940992073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940992071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1940992074
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940992071}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: -1
+  m_TargetDisplay: 0
+--- !u!224 &1940992075
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940992071}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 74284202}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1001 &2100505590
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1553597084384849480, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597084485210433, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_Name
+      value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597084485210435, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597084485210435, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597084485210445, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597084485210445, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597084485210445, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597084485210445, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597084485210445, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597084485210445, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597084485210445, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597084485210445, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597084485210445, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597084485210445, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597084485210445, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597084485210445, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597084485210445, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597084485210445, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597084485210445, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597084485210445, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597084485210445, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597084485210445, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597084485210445, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597084485210445, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597084485210445, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597084649441246, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597084659763922, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597085377917641, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597085606908879, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553597085773280999, guid: dfbcd7cc3763693469df1e0b16b290bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dfbcd7cc3763693469df1e0b16b290bd, type: 3}
+--- !u!223 &2100505591 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 1553597084485210444, guid: dfbcd7cc3763693469df1e0b16b290bd,
+    type: 3}
+  m_PrefabInstance: {fileID: 2100505590}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &2100505592 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1553597085606908872, guid: dfbcd7cc3763693469df1e0b16b290bd,
+    type: 3}
+  m_PrefabInstance: {fileID: 2100505590}
+  m_PrefabAsset: {fileID: 0}
